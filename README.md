@@ -1,10 +1,11 @@
+
+'''
   CCCCC   RRRRR   Y   Y  TTTTT  EEEEE   X   X  TTTTT
  C        R   R    Y Y     T    E        X X     T   
  C        RRRRR     Y      T    EEEE      X      T   
  C        R  R      Y      T    E        X X     T   
   CCCCC   R   R     Y      T    EEEEE   X   X    T   
-
-
+'''
 # CryText - Encryption and Decryption Tool
 
 CryText is a Python based base64 tool designed for encrypting and decryption of files or text. Whether you're looking to protect sensitive information or need a quick way to securely share data, CryText makes it simple and effective.
