@@ -13,13 +13,11 @@ CryText is a Python-based base64 tool designed for encrypting and decryption of 
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/crytext.git
+   git clone https://github.com/Dulanga-Rukshan/crytext.git
 
-    Install any dependencies if needed:
-
-    cd crytext
-    
-    Ensure that you have Python installed (preferably Python 3.x).
+   cd crytext
+   
+   Ensure that you have Python installed (preferably Python 3.x).
 
 Usage
 
