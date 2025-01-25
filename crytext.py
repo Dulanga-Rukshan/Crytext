@@ -89,14 +89,14 @@ def main(support,asciiArt):
 
     def encodingFile(filepath,filename,fileextension):
         try:
-            with open(encode, "r") as file:
+            with open(filepath, "r") as file:
                 print("Encrypting file...")
-                with open(f"{filename}Encrypted.{fileextension}", "w") as encryptFile:                                           
+                with open(f"{filename}Encrypted{fileextension}", "w") as encryptFile:                                           
                     for e in file:
                         encryptFile.write(f"{encodeText(e)}\n")                
-            print(f"Encrypt file created!!!")
+            print(f"File named {filepath} has been encrypted as {filename}Encrypted{fileextension}!!!")
         except Exception as e:
-            print(f"File named {filepath} has been encrypted as {filename}{fileextension}!!!")
+            print(f"{e} - File encrypting Error!!!")
 
     def decodingFile(filepath, filename, fileextension):
         try:
@@ -105,7 +105,7 @@ def main(support,asciiArt):
                 with open(f"{filename}Decrypt{fileextension}", "w") as decryptFile:
                     for d in file:
                         decryptFile.write(f"{decodeText(d)}\n")
-            print(f"File named {filepath} has been decrypted as {filename}{fileextension}!!!")
+            print(f"File named {filepath} has been decrypted as {filename}Decrypted{fileextension}!!!")
         except Exception as e:
             print(f"Decrypting file error - {e}.")
                   
