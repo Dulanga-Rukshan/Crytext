@@ -1,6 +1,20 @@
+<<<<<<< HEAD
 # CryText - Encryption and Decryption Tool
 
 CryText is a Python-based tool designed for encrypting and decryption of files or text. Whether you're looking to protect sensitive information or need a quick way to securely share data, CryText makes it simple and effective.
+=======
+
+
+     CCCCC   RRRRR   Y   Y  TTTTT  EEEEE   X   X  TTTTT
+    C        R   R    Y Y     T    E        X X     T   
+    C        RRRRR     Y      T    EEEE      X      T   
+    C        R  R      Y      T    E        X X     T   
+     CCCCC   R   R     Y      T    EEEEE   X   X    T   
+
+# CryText - Encryption and Decryption Tool
+
+CryText is a Python based base64 tool designed for encrypting and decryption of files or text. Whether you're looking to protect sensitive information or need a quick way to securely share data, CryText makes it simple and effective.
+>>>>>>> 28d152eef777cd6d3a44229569db6c21958c916a
 
 ## Features
 
@@ -13,6 +27,7 @@ CryText is a Python-based tool designed for encrypting and decryption of files o
 
 1. Clone this repository to your local machine:
    ```bash
+<<<<<<< HEAD
    git clone https://github.com/your-username/crytext.git
 
     Install any dependencies if needed:
@@ -21,6 +36,12 @@ CryText is a Python-based tool designed for encrypting and decryption of files o
     python3 crytext.py -
 
     Ensure that you have Python installed (preferably Python 3.x).
+=======
+   git clone https://github.com/Dulanga-Rukshan/crytext.git
+   cd crytext
+   
+   Ensure that you have Python installed (preferably Python 3.x).
+>>>>>>> 28d152eef777cd6d3a44229569db6c21958c916a
 
 Usage
 
@@ -39,11 +60,19 @@ Examples
 
     Encrypt a File:
 
+<<<<<<< HEAD
 python crytext.py -e -f input.txt
 
 Decrypt a File:
 
 python crytext.py -d -f encrypted.txt
+=======
+python crytext.py -e input.txt
+
+Decrypt a File:
+
+python crytext.py -d encrypted.txt
+>>>>>>> 28d152eef777cd6d3a44229569db6c21958c916a
 
 Show Help:
 
@@ -55,10 +84,14 @@ CryText is a tool designed by Dulanga Rukshan for encryption and decryption of f
 Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request with improvements, bug fixes, or new features.
+<<<<<<< HEAD
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 Acknowledgments
 
     Thanks to the open-source community for their libraries and contributions that helped make this project possible.
+=======
+
+>>>>>>> 28d152eef777cd6d3a44229569db6c21958c916a
     Designed by Dulanga Rukshan.
