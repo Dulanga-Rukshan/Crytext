@@ -58,7 +58,7 @@ Encrypt a File:
 
 Decrypt a File:
 
-     python3 crytext.py  -f encrypted.txt -d
+     python3 crytext.py -f encrypted.txt -d
 
 
 Show Help:
