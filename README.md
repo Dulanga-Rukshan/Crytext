@@ -18,6 +18,11 @@ CryText is a Python based base64 tool designed for encrypting and decryption of 
 - **Command-Line Interface**: Easy-to-use CLI interface for quick operations.
 - **File Support**: Encrypt and decrypt both text and file data by specifying the file path.
 
+##File types supported 
+
+.txt, .csv, .log, .json, .xml, .yaml, .md, .doc, .docx, .xls, .xlsx, .ppt, .pptx, .odt, .ods, .odp, .py, .java, .js, .html, .css, .c, .cpp, .php, .rb, .ts, .sh
+
+
 ## Installation
 
 1. Clone this repository to your local machine:
