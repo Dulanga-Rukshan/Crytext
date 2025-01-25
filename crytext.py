@@ -105,7 +105,7 @@ def main(support,asciiArt):
                 with open(f"{filename}Decrypt{fileextension}", "w") as decryptFile:
                     for d in file:
                         decryptFile.write(f"{decodeText(d)}\n")
-            print(f"File named {filepath} has been decrypted as {filename}Decrypted{fileextension}!!!")
+            print(f"File named {filepath} has been decrypted as {filename}HasDecrypted{fileextension}!!!")
         except Exception as e:
             print(f"Decrypting file error - {e}.")
                   
