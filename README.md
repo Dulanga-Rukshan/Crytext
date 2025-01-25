@@ -69,6 +69,11 @@ Description
 
 CryText is a tool designed by Dulanga Rukshan for encryption and decryption of files. With this tool, you can secure your data with ease by using the command-line interface and various options for encryption and decryption.
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute this software, as long as you include the original license.
+
 Contributions are welcome! Feel free to open an issue or submit a pull request with improvements, bug fixes, or new features.
 
     Designed by Dulanga Rukshan.
