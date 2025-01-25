@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# CryText - Encryption and Decryption Tool
-
-CryText is a Python-based tool designed for encrypting and decryption of files or text. Whether you're looking to protect sensitive information or need a quick way to securely share data, CryText makes it simple and effective.
-=======
 
 
      CCCCC   RRRRR   Y   Y  TTTTT  EEEEE   X   X  TTTTT
@@ -14,7 +9,7 @@ CryText is a Python-based tool designed for encrypting and decryption of files o
 # CryText - Encryption and Decryption Tool
 
 CryText is a Python based base64 tool designed for encrypting and decryption of files or text. Whether you're looking to protect sensitive information or need a quick way to securely share data, CryText makes it simple and effective.
->>>>>>> 28d152eef777cd6d3a44229569db6c21958c916a
+
 
 ## Features
 
@@ -23,31 +18,30 @@ CryText is a Python based base64 tool designed for encrypting and decryption of 
 - **Command-Line Interface**: Easy-to-use CLI interface for quick operations.
 - **File Support**: Encrypt and decrypt both text and file data by specifying the file path.
 
+## File types supported
+
+.txt, .csv, .log, .json, .xml, .yaml, .md, .doc, .docx, .xls, .xlsx, .ppt, .pptx, .odt, .ods, .odp, .py, .java, .js, .html, .css, .c, .cpp, .php, .rb, .ts, .sh
+
+
 ## Installation
 
 1. Clone this repository to your local machine:
-   ```bash
-<<<<<<< HEAD
-   git clone https://github.com/your-username/crytext.git
+  
+        git clone https://github.com/Dulanga-Rukshan/crytext.git
+        cd crytext
+        python3 crytext.py 
 
-    Install any dependencies if needed:
-
-    cd crytext
-    python3 crytext.py -
-
-    Ensure that you have Python installed (preferably Python 3.x).
-=======
-   git clone https://github.com/Dulanga-Rukshan/crytext.git
-   cd crytext
+    Ensure that you have Python installed ( Python 3.x ).
+  
+        cd crytext
    
    Ensure that you have Python installed (preferably Python 3.x).
->>>>>>> 28d152eef777cd6d3a44229569db6c21958c916a
 
 Usage
 
 The basic syntax for using CryText is:
 
-python crytext.py [OPTIONS]
+python3 crytext.py [OPTIONS]
 
 Options
 
@@ -58,40 +52,23 @@ Options
 
 Examples
 
-    Encrypt a File:
+Encrypt a File:
 
-<<<<<<< HEAD
-python crytext.py -e -f input.txt
-
-Decrypt a File:
-
-python crytext.py -d -f encrypted.txt
-=======
-python crytext.py -e input.txt
+     python3 crytext.py -f input.txt -e
 
 Decrypt a File:
 
-python crytext.py -d encrypted.txt
->>>>>>> 28d152eef777cd6d3a44229569db6c21958c916a
+     python3 crytext.py -f encrypted.txt -d
+
 
 Show Help:
 
-    python crytext.py -h
+    python3 crytext.py -h
 
 Description
 
-CryText is a tool designed by Dulanga Rukshan for encryption and decryption of files or text. With this tool, you can secure your data with ease by using the command-line interface and various options for encryption and decryption.
-Contributing
+CryText is a tool designed by Dulanga Rukshan for encryption and decryption of files. With this tool, you can secure your data with ease by using the command-line interface and various options for encryption and decryption.
 
 Contributions are welcome! Feel free to open an issue or submit a pull request with improvements, bug fixes, or new features.
-<<<<<<< HEAD
-License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgments
-
-    Thanks to the open-source community for their libraries and contributions that helped make this project possible.
-=======
-
->>>>>>> 28d152eef777cd6d3a44229569db6c21958c916a
     Designed by Dulanga Rukshan.
