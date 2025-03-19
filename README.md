@@ -8,14 +8,14 @@
 
 # CryText - Encryption and Decryption Tool
 
-CryText is a Python based base64 tool designed for encrypting and decryption of files or text. Whether you're looking to protect sensitive information or need a quick way to securely share data, CryText makes it simple and effective.
+CryText is a Python based base64 tool designed for encrypting and decryption of files or text. Whether you are looking to protect sensitive information or need a quick way to securely share data, CryText makes it simple and effective.
 
 
 ## Features
 
 - **Encrypt Text or Files**: Easily encrypt your text or file data using a specified encryption algorithm.
 - **Decrypt Encrypted Data**: Decrypt your encrypted text or files back to their original form.
-- **Command-Line Interface**: Easy-to-use CLI interface for quick operations.
+- **Command Line Interface**: Easy to use CLI interface for quick operations.
 - **File Support**: Encrypt and decrypt both text and file data by specifying the file path.
 
 ## File types supported
