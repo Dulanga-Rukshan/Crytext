@@ -6,24 +6,24 @@
     C        R  R      Y      T    E        X X     T   
      CCCCC   R   R     Y      T    EEEEE   X   X    T   
 
-# CryText - Encryption and Decryption Tool
+# CryText -encryption and decryption tool
 
-CryText is a Python based base64 tool designed for encrypting and decryption of files or text. Whether you are looking to protect sensitive information or need a quick way to securely share data, CryText makes it simple and effective.
+CryText is a Python based base64 tool designed for encrypting and decrypting of files or text. Whether you are looking to protect sensitive information or need a quick way to securely share data, CryText makes it simple and effective.
 
 
-## Features
+##Features
 
-- **Encrypt Text or Files**: Easily encrypt your text or file data using a specified encryption algorithm.
-- **Decrypt Encrypted Data**: Decrypt your encrypted text or files back to their original form.
-- **Command Line Interface**: Easy to use CLI interface for quick operations.
-- **File Support**: Encrypt and decrypt both text and file data by specifying the file path.
+- **Encrypt text or files**: Easily encrypt your text or file data using a specified encryption algorithm.
+- **Decrypt encrypted data**: Decrypt your encrypted text or files back to their original form.
+- **Command line interface**: Easy to use CLI interface for quick operations.
+- **File support**: Encrypt and decrypt both text and file data by specifying the file path.
 
-## File types supported
+##File types supported
 
 .txt, .csv, .log, .json, .xml, .yaml, .md, .doc, .docx, .xls, .xlsx, .ppt, .pptx, .odt, .ods, .odp, .py, .java, .js, .html, .css, .c, .cpp, .php, .rb, .ts, .sh
 
 
-## Installation
+##Installation
 
 Clone this repository to your local machine:
   
@@ -61,15 +61,15 @@ Decrypt a File:
      python3 crytext.py -f encrypted.txt -d
 
 
-Show Help:
+Show help:
 
     python3 crytext.py -h
 
 Description
 
-CryText is a tool designed by Dulanga Rukshan for encryption and decryption of files. With this tool, you can secure your data with ease by using the command-line interface and various options for encryption and decryption.
+CryText is a tool designed by Dulanga Rukshan for encryption and decryption of files. With this tool, you can secure your data with ease by using the command line interface and various options for encryption and decryption.
 
-## License
+##License
 
 This project is licensed under the [MIT License](LICENSE).  
 You are free to use, modify, and distribute this software, as long as you include the original license.
